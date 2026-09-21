@@ -78,7 +78,11 @@ final class WebViewController: UIViewController {
 
     private func retry() {
         errorStack.isHidden = true
-        webView.url == nil ? loadHome() : webView.reload()
+        if webView.url == nil {
+            loadHome()
+        } else {
+            webView.reload()
+        }
     }
 
     private func isInApp(_ url: URL) -> Bool {
@@ -136,7 +140,11 @@ extension WebViewController: WKUIDelegate {
     func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration,
                  for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
         if navigationAction.targetFrame == nil, let url = navigationAction.request.url {
-            isInApp(url) ? webView.load(navigationAction.request) : openExternally(url)
+            if isInApp(url) {
+                webView.load(navigationAction.request)
+            } else {
+                openExternally(url)
+            }
         }
         return nil
     }
