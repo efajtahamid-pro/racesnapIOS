@@ -1,0 +1,66 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64BF2D7E2E6AC68481BC864A = {isa = PBXBuildFile; fileRef = A798BDC38BF6B7E65491574C; };
+		822A7F2DE2395D4B0C8951C6 = {isa = PBXBuildFile; fileRef = 647A4CB2CF7C1CE4CC5BB43B; };
+		936C8C3B375DB6C920C13AD3 = {isa = PBXBuildFile; fileRef = 7F73E597B9CB3304D999ACF5; };
+		965395689DC5EA3500622704 = {isa = PBXBuildFile; fileRef = 2C4D2A7C2A59D756EA33CE37; };
+		06339E1BBB21387214826DF2 = {isa = PBXBuildFile; fileRef = 3B69C571C47250824083FEFE; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A798BDC38BF6B7E65491574C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		647A4CB2CF7C1CE4CC5BB43B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F73E597B9CB3304D999ACF5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		2C4D2A7C2A59D756EA33CE37 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B69C571C47250824083FEFE = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EAE2A1F1D85402851EDB3E8 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBE83DBE4DACD9CB3E24EFB = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceSnapAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD86089A1860EAE36CE58564 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC9C0B345CE214B7EC25C5E = {isa = PBXGroup; children = (C1F5ABEAF0E809C115C3C6A8, 0F88824F031CD643EC236747, ); sourceTree = "<group>"; };
+		C1F5ABEAF0E809C115C3C6A8 = {isa = PBXGroup; children = (A798BDC38BF6B7E65491574C, 647A4CB2CF7C1CE4CC5BB43B, 7F73E597B9CB3304D999ACF5, 2C4D2A7C2A59D756EA33CE37, 3B69C571C47250824083FEFE, 7EAE2A1F1D85402851EDB3E8, ); path = RaceSnapAI; sourceTree = "<group>"; };
+		0F88824F031CD643EC236747 = {isa = PBXGroup; children = (8BBE83DBE4DACD9CB3E24EFB, ); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		579CB6347CE5939ED3C91825 = {isa = PBXNativeTarget; buildConfigurationList = 6E2A448AEC35485957407536; buildPhases = (AAC7D8CABAF00F4083D60E26, BD86089A1860EAE36CE58564, 0476C0D0F784529A220F587A, ); buildRules = (); dependencies = (); name = RaceSnapAI; productName = RaceSnapAI; productReference = 8BBE83DBE4DACD9CB3E24EFB; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC102AA4EEC65849A874CAB = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; }; buildConfigurationList = CA0ADDCA838D33897390689D; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = FCC9C0B345CE214B7EC25C5E; productRefGroup = 0F88824F031CD643EC236747; projectDirPath = ""; projectRoot = ""; targets = (579CB6347CE5939ED3C91825, ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0476C0D0F784529A220F587A = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (965395689DC5EA3500622704, 06339E1BBB21387214826DF2, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC7D8CABAF00F4083D60E26 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (64BF2D7E2E6AC68481BC864A, 822A7F2DE2395D4B0C8951C6, 936C8C3B375DB6C920C13AD3, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9BA3A73C164C347FFE2A7645 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; IPHONEOS_DEPLOYMENT_TARGET = 15.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		27EDC15E1CB2051CD6A4DCFB = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; IPHONEOS_DEPLOYMENT_TARGET = 15.0; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; VALIDATE_PRODUCT = YES; }; name = Release; };
+		94E19BEE9591CAB086DF7552 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = RaceSnapAI/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = ai.racesnap.app; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		CD7CBEB3F051D2DB5394FADA = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = RaceSnapAI/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = ai.racesnap.app; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0ADDCA838D33897390689D = {isa = XCConfigurationList; buildConfigurations = (9BA3A73C164C347FFE2A7645, 27EDC15E1CB2051CD6A4DCFB, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		6E2A448AEC35485957407536 = {isa = XCConfigurationList; buildConfigurations = (94E19BEE9591CAB086DF7552, CD7CBEB3F051D2DB5394FADA, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CC102AA4EEC65849A874CAB;
+}
